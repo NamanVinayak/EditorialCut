@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shot Detection"
+  short_description: "Create reviewable shot maps from source footage"
+  default_prompt: "Use $detect-shots to create a reviewable shot map and representative frames for this video."

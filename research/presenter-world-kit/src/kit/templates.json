@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "perceptibility_floor": {
+    "scale_delta": 0.1,
+    "cx_delta_px": 96
+  },
+  "templates": [
+    {
+      "id": "reveal-out",
+      "status": "candidate",
+      "composition_id": "N10RevealOut",
+      "legs": [
+        {
+          "t0": 0.0,
+          "t1": 2.6,
+          "scale": [1.25, 1.0],
+          "cx": [985, 960],
+          "cy": [400, 540],
+          "ease": "easeOut",
+          "reason": "Open tight, reveal to the full frame once."
+        }
+      ]
+    },
+    {
+      "id": "emphasis-push",
+      "status": "candidate",
+      "composition_id": "N10EmphasisPush",
+      "legs": [
+        {
+          "t0": 2.64,
+          "t1": 3.88,
+          "scale": [1.0, 1.18],
+          "cx": [960, 985],
+          "cy": [540, 420],
+          "ease": "standard",
+          "reason": "Push in on the selected emphasis phrase."
+        },
+        {
+          "t0": 7.74,
+          "t1": 8.14,
+          "scale": [1.18, 1.0],
+          "cx": [985, 960],
+          "cy": [420, 540],
+          "ease": "easeOut",
+          "reason": "Return when the emphasized thought closes."
+        }
+      ]
+    },
+    {
+      "id": "right-reveal",
+      "status": "candidate",
+      "composition_id": "N10RightReveal",
+      "legs": [
+        {
+          "t0": 2.4,
+          "t1": 3.6,
+          "scale": [1.0, 1.14],
+          "cx": [960, 1075],
+          "cy": [540, 480],
+          "ease": "standard",
+          "reason": "Seat the presenter left and open the right third."
+        },
+        {
+          "t0": 7.74,
+          "t1": 8.6,
+          "scale": [1.14, 1.0],
+          "cx": [1075, 960],
+          "cy": [480, 540],
+          "ease": "easeOut",
+          "reason": "Return after the right-side visual moment closes."
+        }
+      ]
+    },
+    {
+      "id": "lr-phrase",
+      "status": "candidate",
+      "composition_id": "N10LeftRightPhrase",
+      "legs": [
+        {
+          "t0": 4.36,
+          "t1": 4.9,
+          "scale": [1.0, 1.15],
+          "cx": [960, 860],
+          "cy": [540, 470],
+          "ease": "standard",
+          "reason": "Favor one side for the first parallel clause."
+        },
+        {
+          "t0": 5.94,
+          "t1": 6.5,
+          "scale": [1.15, 1.15],
+          "cx": [860, 1060],
+          "cy": [470, 470],
+          "ease": "standard",
+          "reason": "Cross to the opposite side for the second parallel clause."
+        },
+        {
+          "t0": 7.74,
+          "t1": 8.5,
+          "scale": [1.15, 1.0],
+          "cx": [1060, 960],
+          "cy": [470, 540],
+          "ease": "easeOut",
+          "reason": "Return to neutral when the paired phrase closes."
+        }
+      ]
+    },
+    {
+      "id": "step-punch",
+      "status": "rejected",
+      "composition_id": null,
+      "rejection_reason": "Rejected by the project lead after the first moving-video review.",
+      "legs": []
+    }
+  ]
+}

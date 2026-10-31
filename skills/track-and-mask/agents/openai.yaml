@@ -1,0 +1,4 @@
+interface:
+  display_name: "Track and Mask"
+  short_description: "Create tracked presenter mattes and alpha exports"
+  default_prompt: "Use $track-and-mask to isolate the presenter throughout this video and deliver a verified alpha export."

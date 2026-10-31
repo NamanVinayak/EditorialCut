@@ -1,0 +1,17 @@
+EditorialCut licensing
+=====================
+
+Unless a file says otherwise, original EditorialCut material is dual-licensed under
+either of these licenses, at your option:
+
+  1. MIT License; OR
+  2. GNU Affero General Public License, version 3 only.
+
+The complete texts are in LICENSES/MIT.txt and LICENSES/AGPL-3.0-only.txt.
+
+All source in this repository is original EditorialCut material under the dual
+license above. No third-party source is vendored here.
+
+Third-party engines are not included. Their names describe optional integrations and
+do not change their separate license terms. See THIRD_PARTY_NOTICES.md.
+

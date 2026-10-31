@@ -1,0 +1,9 @@
+{
+  "beats": [
+    {
+      "id": "example-beat",
+      "query": "hands assembling a physical object",
+      "clip_description": "close detail of hands assembling a physical object with deliberate movement"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Core Python dependencies for the EditorialCut research/ engine code.
+#
+# This is the plain-pip subset. Several engines need extra, non-pip steps
+# (a git-installed package, a cloned repo + checkpoint, or their own
+# separate venv) — see scripts/setup.sh, which runs this file and then
+# prints those follow-up steps.
+
+numpy
+pillow
+opencv-python
+matplotlib
+requests
+psutil
+torch
+torchvision
+transformers<5
+soundfile
+soxr
+silero-vad
+inaSpeechSegmenter
+scenedetect
+pytest

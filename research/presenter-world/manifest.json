@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-07-15T11:41:07.036665+00:00",
+  "inputs": {
+    "cutout-alpha.mov": {
+      "path": "remotion/public/cutout-alpha.mov",
+      "sha256_before": "5ee2943014e84d8ec8e721ffbdfc0837ec1017e800519d542559dcfa3ce19292",
+      "sha256_after": "5ee2943014e84d8ec8e721ffbdfc0837ec1017e800519d542559dcfa3ce19292",
+      "match": true
+    },
+    "background-270-290.mp4": {
+      "path": "remotion/public/background-270-290.mp4",
+      "sha256_before": "229371d07ea41bf58a8c744fcacec71a24dc9aaf31e3560c3958c2980778f906",
+      "sha256_after": "229371d07ea41bf58a8c744fcacec71a24dc9aaf31e3560c3958c2980778f906",
+      "match": true
+    }
+  },
+  "outputs": {
+    "beat1-ribbon.mp4": {
+      "sha256": "fbf6ae18a4d6a0918292752aa45b08028776336cc30f6ef4cce3c6d535274e53",
+      "size_bytes": 4668184,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 180,
+        "duration": 6.0,
+        "codec": "h264",
+        "has_audio": false
+      },
+      "pass": true
+    },
+    "beat2-pills.mp4": {
+      "sha256": "2914da83e8e9026f97e3d677a50172a58e0cc0bafe1913a6e97f46be168c7c99",
+      "size_bytes": 4253977,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 150,
+        "duration": 5.0,
+        "codec": "h264",
+        "has_audio": false
+      },
+      "pass": true
+    },
+    "beat3-crossroads.mp4": {
+      "sha256": "6a3337716493c90639fe6a0995ff94ffaa8a782edc960a4ce50a889dd2e8e7d9",
+      "size_bytes": 5288814,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 180,
+        "duration": 6.0,
+        "codec": "h264",
+        "has_audio": false
+      },
+      "pass": true
+    },
+    "beat4a-parallax.mp4": {
+      "sha256": "071368bacdcde255d7c3310db8d545db431adaee9467e7a17c804c724114f623",
+      "size_bytes": 3685505,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 120,
+        "duration": 4.0,
+        "codec": "h264",
+        "has_audio": false
+      },
+      "pass": true
+    },
+    "beat4b-canvas.mp4": {
+      "sha256": "3c74bff1af9b87968b89ba6f3e2479d5fc9221adc22da343f8596f151762d45f",
+      "size_bytes": 3355659,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 120,
+        "duration": 4.0,
+        "codec": "h264",
+        "has_audio": false
+      },
+      "pass": true
+    },
+    "assembled.mp4": {
+      "sha256": "a895e2f279bf3adde06c65be236d50c934ba6284081bfb2e22fc382d1e94cddf",
+      "size_bytes": 17408216,
+      "checks": {
+        "width": true,
+        "height": true,
+        "fps": true,
+        "frames": true,
+        "codec": true,
+        "audio": true
+      },
+      "probe": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": 600,
+        "duration": 20.0,
+        "codec": "h264",
+        "has_audio": true
+      },
+      "pass": true
+    }
+  },
+  "overall_pass": true
+}

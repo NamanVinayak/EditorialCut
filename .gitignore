@@ -1,0 +1,74 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+*credentials*
+*.pem
+*.key
+*.p12
+
+# Personal/media inputs
+media/
+videos/
+footage/
+reference-library/
+benchmark-footage/
+*.mp4
+!/assets/foundation-textures-v1/motion/**
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aiff
+*.flac
+
+# Engines, models, environments, dependencies
+engines/
+models/
+*.safetensors
+*.ckpt
+.venv*/
+venv*/
+node_modules/
+
+# Generated work
+out/
+output/
+outputs/
+render/
+renders/
+results/
+coverage/
+.test-dist/
+*.log
+*.tmp
+
+# Personal process material
+HANDOFF.md
+HANDOFF-AUDIT-PROMPT.md
+Codex/
+*audit-scratchpad*
+*taste-delta*
+*taste-map*
+*original-prompts*
+scripts/private_markers.local
+
+# Per-tool skill roots fanned out by scripts/link-skills.sh at setup time.
+# The canonical source is skills/; only .claude/skills is committed (so Claude
+# Code, including cloud/Cowork, works on a fresh clone). These are symlinks
+# rebuilt on demand -- never commit them.
+/.agents/
+/.opencode/
+/.gemini/
+
+# Tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store

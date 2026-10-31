@@ -1,0 +1,43 @@
+{
+  "_note": "Shelf 2 image-to-video model registry. Verified against fal.ai live docs on the dates below. Prices are conservative estimates for the COST GUARD (err high); confirm exact price on the fal pricing page before a real spend. Only 'kling-std' schema is fully doc-verified; others are marked schema_verified:false and must be verified before enabling.",
+  "gateway": "fal",
+  "submit_url_template": "https://queue.fal.run/fal-ai/{path}",
+  "auth_header": "Authorization: Key {FAL_KEY}",
+  "image_input": "base64 data URI (default, works per fal docs) OR fal.storage.upload URL (recommended for large/production)",
+  "verified": "2026-07-21",
+  "models": {
+    "kling-std": {
+      "path": "kling-video/v1/standard/image-to-video",
+      "required": ["prompt", "image_url"],
+      "optional": {"duration": [5, 10], "negative_prompt": "string", "cfg_scale": 0.5},
+      "output_video_field": "video.url",
+      "usd_per_second_estimate": 0.10,
+      "schema_verified": true,
+      "source": "https://fal.ai/models/fal-ai/kling-video/v1/standard/image-to-video/api",
+      "verified": "2026-07-21"
+    },
+    "hailuo-02": {
+      "path": "minimax/hailuo-02/standard/image-to-video",
+      "required": ["prompt", "image_url"],
+      "optional": {"duration": [6, 10]},
+      "output_video_field": "video.url",
+      "usd_per_second_estimate": 0.05,
+      "schema_verified": false,
+      "note": "Cheapest per search (~$0.045/s). VERIFY exact model path + input schema on fal before enabling.",
+      "source": "https://fal.ai/explore/image-to-video-apis",
+      "verified": "price-only 2026-07-21"
+    },
+    "ltx": {
+      "path": "ltx-video/image-to-video",
+      "required": ["prompt", "image_url"],
+      "optional": {},
+      "output_video_field": "video.url",
+      "usd_per_second_estimate": 0.05,
+      "schema_verified": false,
+      "note": "Fastest/cheapest tier. VERIFY exact path + schema before enabling.",
+      "source": "https://fal.ai/models/fal-ai/ltx-video/image-to-video",
+      "verified": "price-only 2026-07-21"
+    }
+  },
+  "default_model": "kling-std"
+}
